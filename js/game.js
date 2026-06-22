@@ -1,5 +1,7 @@
 ﻿let stations = [];
 const foundIds = new Set();
+let seconds = 0;
+let timerInterval = null;
 
 // 1. Load the data
 fetch('data/stations.json')
@@ -32,6 +34,9 @@ function checkGuess(input) {
 function markFound(station) {
     foundIds.add(station.id);
 
+    // Start timer on first correct guess
+    if (foundIds.size === 1) startTimer();
+
     // Update count
     document.getElementById('found').textContent = foundIds.size;
 
@@ -43,6 +48,12 @@ function markFound(station) {
 
     // Flash feedback
     showFeedback(`✅ ${station.name}`);
+    // Check if finished
+    if (foundIds.size === stations.length) {
+        clearInterval(timerInterval);
+        showFeedback(`🎉 Done in ${document.getElementById('timer').textContent}!`);
+        document.getElementById('guess-input').disabled = true;
+    }
 }
 
 // --- Show feedback message ---
@@ -73,3 +84,14 @@ input.addEventListener('input', () => {
         input.value = ''; // clear the box on a correct guess
     }
 });
+
+// --- Timer ---
+function startTimer() {
+    timerInterval = setInterval(() => {
+        seconds++;
+        const m = Math.floor(seconds / 60);
+        const s = seconds % 60;
+        document.getElementById('timer').textContent =
+            m + ':' + String(s).padStart(2, '0');
+    }, 1000);
+}

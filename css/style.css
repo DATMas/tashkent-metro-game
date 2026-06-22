@@ -1,6 +1,97 @@
-﻿body {
-    font-family: sans-serif;
-    background: #1a1a2e;
-    color: white;
-    padding: 2rem;
+﻿/* --- Reset & base --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    font-family: sans-serif;
+    background: #0f0f1a;
+    color: #e0e0e0;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+}
+
+/* --- Layout --- */
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+/* --- Header --- */
+h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+/* --- Stats row --- */
+.stats {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.stat-label {
+    font-size: 0.75rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 2px;
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+/* --- Input --- */
+#guess-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    background: #1e1e30;
+    border: 1px solid #333;
+    border-radius: 8px;
+    color: white;
+    outline: none;
+    margin-bottom: 0.75rem;
+    transition: border-color 0.2s;
+}
+
+    #guess-input:focus {
+        border-color: #5C9DE8;
+    }
+
+    #guess-input:disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+    }
+
+/* --- Feedback --- */
+#feedback {
+    font-size: 0.9rem;
+    height: 1.4rem;
+    margin-bottom: 1.5rem;
+    color: #5BBF7A;
+}
+
+/* --- Found list --- */
+#found-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+    #found-list li {
+        font-size: 0.9rem;
+        padding: 6px 10px;
+        background: #1e1e30;
+        border-radius: 6px;
+        border-left: 3px solid currentColor;
+    }
