@@ -1,0 +1,329 @@
+{
+    "lines": [
+        {
+            "id": "chilonzor",
+            "name": "Chilonzor",
+            "color": "#5C9DE8"
+        },
+        {
+            "id": "uzbekiston",
+            "name": "O'zbekiston",
+            "color": "#E05C5C"
+        },
+        {
+            "id": "yunusobod",
+            "name": "Yunusobod",
+            "color": "#5BBF7A"
+        },
+        {
+            "id": "circle",
+            "name": "Circle (Halqa)",
+            "color": "#C97BE8"
+        }
+    ],
+    "stations": [
+        {
+            "id": "ming_orik",
+            "name": "Ming O'rik",
+            "line": "chilonzor",
+            "aliases": [ "ming orik", "ming o'rik" ]
+        },
+        {
+            "id": "uchtepa",
+            "name": "Uchtepa",
+            "line": "chilonzor",
+            "aliases": [ "uchtepa" ]
+        },
+        {
+            "id": "olmazor",
+            "name": "Olmazor",
+            "line": "chilonzor",
+            "aliases": [ "olmazor" ]
+        },
+        {
+            "id": "novza",
+            "name": "Novza",
+            "line": "chilonzor",
+            "aliases": [ "novza" ]
+        },
+        {
+            "id": "milliy_bog",
+            "name": "Milliy Bog'",
+            "line": "chilonzor",
+            "aliases": [ "milliy bog", "milliy bog'" ]
+        },
+        {
+            "id": "pushkin",
+            "name": "Pushkin",
+            "line": "chilonzor",
+            "aliases": [ "pushkin" ]
+        },
+        {
+            "id": "hamid_olimjon",
+            "name": "Hamid Olimjon",
+            "line": "chilonzor",
+            "aliases": [ "hamid olimjon", "hamid" ]
+        },
+        {
+            "id": "paxtakor",
+            "name": "Paxtakor",
+            "line": "chilonzor",
+            "aliases": [ "paxtakor", "pakhtakor" ]
+        },
+        {
+            "id": "amir_temur",
+            "name": "Amir Temur Xiyoboni",
+            "line": "chilonzor",
+            "aliases": [ "amir temur", "amir temur xiyoboni" ]
+        },
+        {
+            "id": "mustaqillik",
+            "name": "Mustaqillik Maydoni",
+            "line": "chilonzor",
+            "aliases": [ "mustaqillik", "mustaqillik maydoni" ]
+        },
+        {
+            "id": "dustlik",
+            "name": "Do'stlik",
+            "line": "chilonzor",
+            "aliases": [ "do'stlik", "dustlik", "dostlik" ]
+        },
+        {
+            "id": "olmas_umarov",
+            "name": "O'lmas O'marov",
+            "line": "chilonzor",
+            "aliases": [ "olmas umarov", "ulmas umarov", "o'lmas o'marov" ]
+        },
+        {
+            "id": "sobir_rahimov",
+            "name": "Sobir Rahimov",
+            "line": "chilonzor",
+            "aliases": [ "sobir rahimov", "sobir" ]
+        },
+        {
+            "id": "chilonzor_st",
+            "name": "Chilonzor",
+            "line": "chilonzor",
+            "aliases": [ "chilonzor", "chilanzar" ]
+        },
+        {
+            "id": "mirobod",
+            "name": "Mirobod",
+            "line": "chilonzor",
+            "aliases": [ "mirobod" ]
+        },
+        {
+            "id": "otchilanlar",
+            "name": "O'tchilanlar",
+            "line": "chilonzor",
+            "aliases": [ "o'tchilanlar", "otchilanlar" ]
+        },
+        {
+            "id": "buyuk_ipak",
+            "name": "Buyuk Ipak Yo'li",
+            "line": "chilonzor",
+            "aliases": [ "buyuk ipak yoli", "buyuk ipak", "buyuk ipak yo'li" ]
+        },
+
+        {
+            "id": "bodomzor",
+            "name": "Bodomzor",
+            "line": "uzbekiston",
+            "aliases": [ "bodomzor" ]
+        },
+        {
+            "id": "toshkent_st",
+            "name": "Toshkent",
+            "line": "uzbekiston",
+            "aliases": [ "toshkent", "tashkent" ]
+        },
+        {
+            "id": "beruniy",
+            "name": "Beruniy",
+            "line": "uzbekiston",
+            "aliases": [ "beruniy", "beruni" ]
+        },
+        {
+            "id": "novshahr",
+            "name": "Novshahr",
+            "line": "uzbekiston",
+            "aliases": [ "novshahr" ]
+        },
+        {
+            "id": "tinchlik",
+            "name": "Tinchlik",
+            "line": "uzbekiston",
+            "aliases": [ "tinchlik" ]
+        },
+        {
+            "id": "bunyodkor",
+            "name": "Bunyodkor",
+            "line": "uzbekiston",
+            "aliases": [ "bunyodkor" ]
+        },
+        {
+            "id": "kosmonavtlar",
+            "name": "Kosmonavtlar",
+            "line": "uzbekiston",
+            "aliases": [ "kosmonavtlar", "cosmonauts" ]
+        },
+        {
+            "id": "xalqlar",
+            "name": "Xalqlar Do'stligi",
+            "line": "uzbekiston",
+            "aliases": [ "xalqlar dustligi", "xalqlar do'stligi", "peoples friendship" ]
+        },
+        {
+            "id": "abdulla_qodiriy",
+            "name": "Abdulla Qodiriy",
+            "line": "uzbekiston",
+            "aliases": [ "abdulla qodiriy", "abdulla qodiri" ]
+        },
+        {
+            "id": "alisher_navoi",
+            "name": "Alisher Navoiy",
+            "line": "uzbekiston",
+            "aliases": [ "alisher navoi", "alisher navoiy" ]
+        },
+        {
+            "id": "gafur_gulom",
+            "name": "G'afur G'ulom",
+            "line": "uzbekiston",
+            "aliases": [ "gafur gulom", "g'afur g'ulom", "ghafur ghulom" ]
+        },
+
+        {
+            "id": "shahriston",
+            "name": "Shahriston",
+            "line": "yunusobod",
+            "aliases": [ "shahriston" ]
+        },
+        {
+            "id": "minor",
+            "name": "Minor",
+            "line": "yunusobod",
+            "aliases": [ "minor" ]
+        },
+        {
+            "id": "mirzo_ulugbek",
+            "name": "Mirzo Ulugbek",
+            "line": "yunusobod",
+            "aliases": [ "mirzo ulugbek" ]
+        },
+        {
+            "id": "yunus_rajabiy",
+            "name": "Yunus Rajabiy",
+            "line": "yunusobod",
+            "aliases": [ "yunus rajabiy" ]
+        },
+        {
+            "id": "yunusobod_st",
+            "name": "Yunusobod",
+            "line": "yunusobod",
+            "aliases": [ "yunusobod" ]
+        },
+        {
+            "id": "turkiston",
+            "name": "Turkiston",
+            "line": "yunusobod",
+            "aliases": [ "turkiston" ]
+        },
+        {
+            "id": "abdulla_q2",
+            "name": "Abdulla Qodiriy",
+            "line": "yunusobod",
+            "aliases": [ "abdulla qodiriy yunusobod" ]
+        },
+        {
+            "id": "xonobod",
+            "name": "Xonobod",
+            "line": "yunusobod",
+            "aliases": [ "xonobod" ]
+        },
+
+        {
+            "id": "sergeli",
+            "name": "Sergeli",
+            "line": "circle",
+            "aliases": [ "sergeli" ]
+        },
+        {
+            "id": "qoyliq",
+            "name": "Qo'yliq",
+            "line": "circle",
+            "aliases": [ "qo'yliq", "qoyliq", "kuylyuk" ]
+        },
+        {
+            "id": "matonat",
+            "name": "Matonat",
+            "line": "circle",
+            "aliases": [ "matonat" ]
+        },
+        {
+            "id": "qiyot",
+            "name": "Qiyot",
+            "line": "circle",
+            "aliases": [ "qiyot" ]
+        },
+        {
+            "id": "tolariq",
+            "name": "Tolariq",
+            "line": "circle",
+            "aliases": [ "tolariq" ]
+        },
+        {
+            "id": "xonobod2",
+            "name": "Xonobod",
+            "line": "circle",
+            "aliases": [ "xonobod circle", "xonobod 2" ]
+        },
+        {
+            "id": "quruvchilar",
+            "name": "Quruvchilar",
+            "line": "circle",
+            "aliases": [ "quruvchilar" ]
+        },
+        {
+            "id": "turon",
+            "name": "Turon",
+            "line": "circle",
+            "aliases": [ "turon" ]
+        },
+        {
+            "id": "qipchoq",
+            "name": "Qipchoq",
+            "line": "circle",
+            "aliases": [ "qipchoq" ]
+        },
+        {
+            "id": "boston",
+            "name": "Bo'ston",
+            "line": "circle",
+            "aliases": [ "bo'ston", "boston" ]
+        },
+        {
+            "id": "navruz",
+            "name": "Navruz",
+            "line": "circle",
+            "aliases": [ "navruz" ]
+        },
+        {
+            "id": "mustakillik2",
+            "name": "Mustaqillik",
+            "line": "circle",
+            "aliases": [ "mustaqillik circle", "mustaqillik 2" ]
+        },
+        {
+            "id": "olmazor2",
+            "name": "Olmazor",
+            "line": "circle",
+            "aliases": [ "olmazor circle", "olmazor 2" ]
+        },
+        {
+            "id": "beruniy2",
+            "name": "Beruniy",
+            "line": "circle",
+            "aliases": [ "beruniy circle", "beruniy 2" ]
+        }
+    ]
+}
