@@ -19,17 +19,26 @@
                 <div class="stat-value" id="timer">0:00</div>
             </div>
         </div>
-
+        <div id="progress-track">
+            <div id="progress-bar"></div>
+        </div>
         <input type="text"
                id="guess-input"
                placeholder="Type a station name…"
                autocomplete="off"
                spellcheck="false" />
-
+        <button id="give-up-btn" onclick="giveUp()">Give up</button>
         <div id="feedback"></div>
+
+        <svg id="metro-map"
+             viewBox="0 0 660 480"
+             xmlns="http://www.w3.org/2000/svg"
+             style="width:100%; max-width:660px; display:block; margin-bottom:1.5rem;">
+        </svg>
 
         <ul id="found-list"></ul>
     </div>
+    <script src="js/map.js"></script>
     <script src="js/game.js"></script>
 </body>
 </html>

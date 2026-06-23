@@ -1,0 +1,29 @@
+{
+    "lines": [
+        {
+            "id": "chilonzor",
+            "color": "#4E9DE0",
+            "stations": [ "mingorik", "novza", "olmazor", "milliy_bog", "pushkin", "amir_temur", "hamid_olimjon", "paxtakor", "mustaqillik", "ozgarish", "dostlik", "chilonzor_st", "mashinasozlar", "buyuk_ipak" ]
+        },
+        {
+            "id": "chilonzor_sergeli",
+            "color": "#4E9DE0",
+            "stations": [ "mustaqillik", "choshtepa", "yangihayot", "uzbekiston_st", "sergeli" ]
+        },
+        {
+            "id": "uzbekiston",
+            "color": "#E05050",
+            "stations": [ "bodomzor", "toshkent_st", "beruniy", "novshahr", "tinchlik", "amir_temur_uz", "oybek", "xalqlar", "abdulla_qodiriy", "alisher_navoi", "gafur_gulom" ]
+        },
+        {
+            "id": "yunusobod",
+            "color": "#50B870",
+            "stations": [ "turkiston", "yunusobod_st", "yunus_rajabiy", "mirzo_ulugbek", "minor", "chorsu", "gafur_gulom_yu" ]
+        },
+        {
+            "id": "circle",
+            "color": "#A060D0",
+            "stations": [ "buyuk_ipak", "qoyliq", "matonat", "qiyot", "tolariq", "xonobod", "quruvchilar", "turon", "qipchoq", "chinor", "texnopark", "yashnobod", "tuzel", "olmos", "turkiston" ]
+        }
+    ]
+}

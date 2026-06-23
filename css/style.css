@@ -95,3 +95,44 @@ h1 {
         border-radius: 6px;
         border-left: 3px solid currentColor;
     }
+
+
+/* --- Give up button --- */
+#give-up-btn {
+    margin-bottom: 0.75rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    background: transparent;
+    border: 1px solid #444;
+    border-radius: 6px;
+    color: #888;
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+}
+
+    #give-up-btn:hover {
+        border-color: #E05C5C;
+        color: #E05C5C;
+    }
+
+/* --- Progress bar --- */
+#progress-track {
+    height: 4px;
+    background: #1e1e30;
+    border-radius: 2px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+#progress-bar {
+    height: 100%;
+    width: 0%;
+    background: #5C9DE8;
+    border-radius: 2px;
+    transition: width 0.4s ease;
+}
+
+#metro-map text {
+    font-family: sans-serif;
+    user-select: none;
+}

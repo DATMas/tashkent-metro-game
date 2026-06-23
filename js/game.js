@@ -1,7 +1,18 @@
 ﻿let stations = [];
+let mapData = null;
 const foundIds = new Set();
 let seconds = 0;
 let timerInterval = null;
+
+Promise.all([
+    fetch('data/stations.json').then(r => r.json()),
+    fetch('data/map.json').then(r => r.json())
+]).then(([stationData, mapJson]) => {
+    stations = stationData.stations;
+    mapData = mapJson;
+    document.getElementById('total').textContent = stations.length;
+    buildMap(mapData, stations);
+});
 
 // 1. Load the data
 fetch('data/stations.json')
@@ -39,6 +50,13 @@ function markFound(station) {
 
     // Update count
     document.getElementById('found').textContent = foundIds.size;
+
+    // Update progress bar
+    const pct = (foundIds.size / stations.length) * 100;
+    document.getElementById('progress-bar').style.width = pct + '%';
+
+    // Light up the map
+    lightUpStation(station.id, station.line);
 
     // Add to list
     const li = document.createElement('li');
@@ -94,4 +112,27 @@ function startTimer() {
         document.getElementById('timer').textContent =
             m + ':' + String(s).padStart(2, '0');
     }, 1000);
+}
+
+// --- Give up ---
+function giveUp() {
+    // Stop the timer
+    clearInterval(timerInterval);
+
+    // Disable input and button
+    document.getElementById('guess-input').disabled = true;
+    document.getElementById('give-up-btn').disabled = true;
+
+    // Reveal all unfound stations dimmed
+    const unfound = stations.filter(st => !foundIds.has(st.id));
+
+    unfound.forEach(station => {
+        const li = document.createElement('li');
+        li.textContent = station.name;
+        li.style.color = getLineColor(station.line);
+        li.style.opacity = '0.35';
+        document.getElementById('found-list').appendChild(li);
+    });
+
+    showFeedback(`You got ${foundIds.size} of ${stations.length}`);
 }
